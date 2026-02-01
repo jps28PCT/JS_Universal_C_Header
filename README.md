@@ -19,8 +19,8 @@ String is 9 chars long, and is always right-justified so the prefix is always th
 ### Returns:
 - `0` if a success
 - `1` if error
-- `"SigFigErr"` in `returnStr` if significant figure not in range. 
-- `"OutOfRng"` in `returnStr` if value not in range.
+  - `"SigFigErr"` in `returnStr` if significant figure not in range. 
+  - `"OutOfRng"` in `returnStr` if value not in range.
 
 ## int js_Eng_Power(double inputNum)
 This function finds the power of 10 for the engineering notation formatting of doubles. 
