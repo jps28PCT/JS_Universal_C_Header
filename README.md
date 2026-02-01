@@ -45,4 +45,31 @@ This function raises a double to an integer power and returns the product as a d
 - The value found by exponentiation (base^power).
 
 
-## 
+## double js_abs(double value)
+This function returns the absolute value of a double.
+
+### Inputs:
+- `value_in` is the double to find the absolute value of.
+
+### Returns:
+- the absolute value of `value_in`; |`value_in`|
+
+
+## js_Int_to_Char(int IntToConv)
+This function converts an integer between and including 0 and 9 to its ASCII char representation.
+
+### Inputs:
+- `IntToConv` is the integer to convert between and including 0 and 9
+
+### Returns:
+- The ASCII representation of the integer. Returns 'E' if greater than 9 or less than 0.
+
+
+## js_Char_to_Int(char CharToConv)
+This function converts an ASCII char between and including '0' and '9' to its integer equivalent.
+
+### Inputs:
+- `CharToConv` is the char to convert
+
+### Returns:
+- The converted integer value of the char. Returns 0xEEEE if not a number.
