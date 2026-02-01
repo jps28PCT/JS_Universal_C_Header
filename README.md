@@ -5,7 +5,7 @@ This is intended for baremetal systems, where importing `<math.h>` may be undesi
 
 
 <details>
-<summary> Functions: </summary>
+<summary> Functions </summary>
   
 ## int js_Eng_Not(char returnStr[15], double inputNum, int sigFigs)<BR />
 This function formats a double number in engineering notation, from yocto- (10<sup>-24</sup>) to yotta- (10<sup>24</sup>).<BR />
@@ -76,7 +76,7 @@ This function converts an ASCII char between and including '0' and '9' to its in
 </details>
 
 <details>
-<summary> Constants: </summary>
+<summary> Constants </summary>
 All of these constants are guarded in case they are defined elsewhere.
   
 - `TRUE`: boolean 1
