@@ -29,7 +29,7 @@
 
 /*******************************   INCLUDES   *******************************/
 #include <stdio.h>
-#include "jps_univ.h"
+#include "jps_util.h"
 
 
 /*************************   FUNCTION DEFINITIONS   *************************/
@@ -288,6 +288,7 @@ char jps_Char_to_Int(char CharToConv){
 	return IntToRet;						//Returns ASCII char representation of int
 
 }//END jps_Int_to_Char()
+
 
 
 
